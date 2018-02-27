@@ -155,6 +155,9 @@ methodCollection.logHello = function(){console.log('hello')};
 */
 
 //Code Here
+methodCollection.alertHello();
+methodCollection.logHello();
+
 
 
 
@@ -166,6 +169,15 @@ methodCollection.logHello = function(){console.log('hello')};
 */
 
 //Code Here
+function makePerson(name, birthday, ssn){
+  newObject = {
+    name:name,
+    birthday:birthday,
+    ssn:ssn,
+  }
+  return newObject;
+
+}
 
 
 
@@ -177,5 +189,14 @@ methodCollection.logHello = function(){console.log('hello')};
 */
 
 //Code Here
+
+function makeCard(cardNumber,expirationDate,securityCode){
+  creditCard = {
+    cardNumber:cardNumber,
+    expirationDate:expirationDate,
+    securityCode:securityCode,
+  }
+  return creditCard;
+}
 
 
