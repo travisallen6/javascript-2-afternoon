@@ -15,6 +15,11 @@
 */
 
 //Code here
+let me = {
+  name:'Travis',
+  age:29,
+}
+//alert(me.name);
 
 
 
@@ -27,6 +32,17 @@
 
 //Code here
 
+let favoriteThings = {
+  band:'Linkin Park',
+  food:'BBQ',
+  person:'Wife',
+  book:'Books',
+  movie:'The Bourne Identity',
+  holiday:'Christmas',
+}
+
+
+
 
 
 /*
@@ -34,6 +50,8 @@
 */
 
 //Code here
+favoriteThings.car = 'Mustang';
+favoriteThings.brand = 'Nike'
 
 
 
@@ -42,6 +60,8 @@
 */
 
 //Code here
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 
@@ -56,6 +76,10 @@
 */
 
 //Code here
+let backPack = {}
+let item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = 'black';
 
 
 
@@ -97,6 +121,8 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
@@ -109,6 +135,7 @@ var user2 = {
 */
 
 //Code Here
+let methodCollection = {}
 
 
 
@@ -118,6 +145,8 @@ var user2 = {
 */
 
 //Code Here
+methodCollection.alertHello = function(){alert('hello')};
+methodCollection.logHello = function(){console.log('hello')};
 
 
 
